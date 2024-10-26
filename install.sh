@@ -4,6 +4,7 @@ ENDCOLOR="\e[0m"
 
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
+echo -e "${RED}CODE SUPPORT BY IRSAN...${ENDCOLOR}"
 sleep 1
 if [ -f "proxy" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
@@ -14,6 +15,6 @@ fi
 wget -q https://github.com/JoakimTheCoder/AJTermux/raw/main/proxy
 sleep 1
 echo -e "${GREEN}AJproxy is now Installed.${ENDCOLOR}"
-echo -e "${GREEN}code support by IRSAN.${ENDCOLOR}"
+echo -e "${RED}code support by IRSAN.${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./proxy${ENDCOLOR}"
 chmod +x proxy
