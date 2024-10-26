@@ -15,6 +15,7 @@ fi
 wget -q https://github.com/JoakimTheCoder/AJTermux/raw/main/proxy
 sleep 1
 echo -e "${GREEN}AJproxy is now Installed.${ENDCOLOR}"
-echo -e "${RED}code support by IRSAN.${ENDCOLOR}"
+echo -e "${RED}if you lose the code just chat to irsan.${ENDCOLOR}"
+echo -e "${BLUE}don't trust Luckyproxy.${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./proxy${ENDCOLOR}"
 chmod +x proxy
