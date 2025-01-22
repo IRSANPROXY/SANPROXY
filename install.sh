@@ -6,6 +6,8 @@ ENDCOLOR="\e[0m"
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
+echo -e "${GREEN}Proxy By GARENGxJoakim${ENDCOLOR}"
+sleep 1
 if [ -f "proxy" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm proxy
